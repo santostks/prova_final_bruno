@@ -1,9 +1,12 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "395413ce-52f4-46cf-b309-9cff7602710e"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "prova_final_bruno": {
+    "tarefa08-cadastro-de-produtos": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/prova_final_bruno",
+            "outputPath": "dist/tarefa08-cadastro-de-produtos",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "prova_final_bruno:build:production"
+              "browserTarget": "tarefa08-cadastro-de-produtos:build:production"
             },
             "development": {
-              "browserTarget": "prova_final_bruno:build:development"
+              "browserTarget": "tarefa08-cadastro-de-produtos:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "prova_final_bruno:build"
+            "browserTarget": "tarefa08-cadastro-de-produtos:build"
           }
         },
         "test": {
@@ -102,5 +105,5 @@
       }
     }
   },
-  "defaultProject": "prova_final_bruno"
+  "defaultProject": "tarefa08-cadastro-de-produtos"
 }

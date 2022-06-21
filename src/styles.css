@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    background-color: rgb(131, 216, 51);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #e47711;
+}
+
+

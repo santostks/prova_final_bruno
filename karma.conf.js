@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/prova_final_bruno'),
+      dir: require('path').join(__dirname, './coverage/tarefa08-cadastro-de-produtos'),
       subdir: '.',
       reporters: [
         { type: 'html' },
